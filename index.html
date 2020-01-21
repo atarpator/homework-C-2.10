@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Голосование</title>
+    <link rel="stylesheet" type="text/css" href="css/vote.css" />
+  </head>
+  <body>
+    <div class="voting">
+      <h1>Проголосуй за любимое животное</h1>
+      <button type="button" class="btn-cats" onclick="createXMLHttpRequest('cats')">Коты</button>
+      <button type="button" class ="btn-dogs" onclick="createXMLHttpRequest('dogs')">Собаки</button>
+      <button type="button" class="btn-parrots" onclick="createXMLHttpRequest('parrots')">Попугаи</button>
+      <button type="button" class="btn-results">Результаты голосования</button>
+    </div>
+    <script src="js/vote.js"></script>
+  </body>
+</html>

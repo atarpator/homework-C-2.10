@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(135, 110, 215);
+}
+
+h1, h3 {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+.container{
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.progress{
+    height: 30px;
+    font-size: larger;
+}
